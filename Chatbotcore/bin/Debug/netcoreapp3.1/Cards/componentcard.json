@@ -1,0 +1,44 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+   
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+
+      "text": "COMPONENT LIST!",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": true,
+      "text": "Hi!! I am here to help you explore the angular components.",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "FEATURES",
+      "url": "https://angular.io/features"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "TUTORIALS",
+      "url": "https://angular.io/tutorial"
+    }
+    //{
+    // "type": "Action.OpenUrl",
+    // "title": "COMPONENTS GUIDE",
+    //  "url": "https://angular.io/guide/component-overview"
+    //}
+  ]
+
+}
